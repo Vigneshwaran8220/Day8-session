@@ -1,0 +1,143 @@
+body{
+    padding:0;
+    margin:0;
+    border: 1px solid black;
+}
+ul{
+    color:black;
+    list-style-type:circle;
+    font-size: larger;
+    font-family: sans-serif;
+    font: weight 300px;
+}
+nav{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    text-align:center;
+}
+main{
+    margin:60px;
+    text-align: center;
+}
+.content-body{
+    border: 1px solid black;
+    padding:60px;
+    margin:10px;
+    background-color: salmon;
+}
+.content-body-about{
+    border: 1px solid black;
+    padding:60px;
+    margin:10px;
+    background-color:greenyellow;
+}
+.content-body-skills{
+    border: 1px solid black;
+    padding:60px;
+    margin:10px;
+    background-color:red;
+}
+.content-body-projects{
+    border: 1px solid black;
+    padding:60px;
+    margin:10px;
+    background-color:gray;
+}
+.content-body-contact{
+    border: 1px solid black;
+    padding:60px;
+    margin:10px;
+    background-color:brown;
+}
+.heading{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+}
+#Home:hover{
+    cursor: pointer;
+}
+#Home{
+    color: red;
+    border: 1px solid red;
+    padding:20px;
+    background-color:greenyellow;
+    margin:15px;
+}
+#About{
+    color:black;
+}
+#Skills{
+    color:brown;
+}
+#Project{
+    color:blue;
+}
+#Contactus{
+    color: aqua;
+}
+.project-class{
+    color:white;
+}
+section{
+    height:120vh;
+    border: 1px solid black; 
+    background-color: aquamarine;
+    background-image: radial-gradient(circle, orange,white,green);
+}
+a:link{
+    color: red;
+}
+/*visited */
+a:visited{
+    color: violet;
+}
+/*when you try to click */
+a:hover{
+    color: black;
+    font-size: larger;
+}
+/*when you click */
+a:active{
+    color: green;
+}
+#positions{
+    border: 1px solid black;
+    margin:5px;
+    height:500px;
+    background-color: antiquewhite;
+}
+.box{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin:20px;
+   
+   
+}
+#absolute{
+    background-color: aqua;
+   /* position: absolute;
+    right:0;
+    top:0;*/
+}
+#relative{
+background-color: chocolate;
+/*position: relative;
+left:50px;
+bottom:30px;
+right:10px;*/
+}
+#fixed{
+background-color:blue;
+/*position: fixed;
+top: 0;
+left: 0;*/
+}
+#sticky{
+background-color: black;
+position: sticky;
+top:0;
+}

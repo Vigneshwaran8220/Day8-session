@@ -1,0 +1,44 @@
+1.What is css?
+2.Different Ttypes of using CSS?
+3.Selectors, property&values?(int Q)
+Selectors,property values?(intQ)
+class vs id(intQ)
+use of important (intQ)
+display property: inline,block,inline-block(intQ)
+flex,grid
+-------------------------------------------------------------------------------------------------------
+1.what is css: (Cascading Style Sheet)
+->(Website, Webapplication)most of developers used in css why used in css-styles of application
+coloring of application,more than developers should be used in view of comp;letly change in application used of css.
+->users & attractive to the customer in css , smoothness are all using in css good term.
+->styling of webpage used in particular line &particularpage coloring visible on a application used in css.
+-----------------------------------------------------------------------------------------------------------
+2.Different types of css:(priorty vise explain list of css)
+a.inline css
+b.internal css
+c.external css
+
+Different types of Properties:
+ 1.list property
+ 2.font property
+ 3.border property
+ 4.font property
+
+ pseudo classes:
+ *link
+ *visited
+ *hover
+ *active
+ *done
+ //box model // int Q
+  padding margin border
+   padding <-border-<margin>
+   //gradient //
+     linear-gradient(circle, orange,white,green);
+     repeated-gradient(circle, orange,white,green);
+     radial-gradient(circle, orange,white,green);
+position property:
+  fixed,static,relative,absolute,sticky
+  parent inherit
+      task add diferent colour to all boxes on hover (linear gardient colours)
+      move the boxes to he center of the screen.
